@@ -23,7 +23,7 @@ Add the following configuration to your projects' `settings.py` file:
 ```python
 DATADOG_API_KEY = 'YOUR_API_KEY'
 DATADOG_APP_KEY = 'YOUR_APP_KEY'
-DATADOG_APP_NAME = 'my_app' # Used for namespace metric names
+DATADOG_APP_NAME = 'my_app' # Used to namespace metric names
 ```
 
 The API and app keys can be found at https://app.datadoghq.com/account/settings#api
