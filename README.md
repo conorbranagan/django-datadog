@@ -39,7 +39,7 @@ MIDDLEWHARE_CLASSES += ('datadog.middleware.DatadogMiddleware')
 Once the middlewhere installed, you'll start receiving events in your Datadog
 stream in the case of an app exception. Here's an example:
 
-![example django exception](PUT_URL_HERE)
+![example django exception](https://dl.dropbox.com/u/126553/django-datadog.png)
 
 You will also have new timing metrics available:
 
