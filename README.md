@@ -31,7 +31,7 @@ The API and app keys can be found at https://app.datadoghq.com/account/settings#
 Add the Datadog request handler to your middleware in `settings.py`.
 
 ```python
-MIDDLEWHARE_CLASSES += ('datadog.middleware.DatadogMiddleware')
+MIDDLEWARE_CLASSES += ('datadog.middleware.DatadogMiddleware')
 ```
 
 ## Usage
