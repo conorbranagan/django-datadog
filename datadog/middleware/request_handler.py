@@ -33,7 +33,7 @@ class DatadogMiddleware(object):
     def process_response(self, request, response):
         """ Submit timing metrics from the current request """
         if not hasattr(request, self.DD_TIMING_ATTRIBUTE):
-            return
+            return response
 
         # Calculate request time and submit to Datadog
         request_time = time.time() - getattr(request, self.DD_TIMING_ATTRIBUTE)
